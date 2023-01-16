@@ -19,6 +19,7 @@ useful scriprts
     MAIL_TO_USER=
     MAIL_TO_PASSWORD=
     MAIL_TO_BOX_NAME=
+    MAIL_TO_BOX_PREFIX=
     ```
     e.g. for iCloud
     ```ini
@@ -35,5 +36,6 @@ useful scriprts
     MAIL_TO_USER=xyz@abc.com
     MAIL_TO_PASSWORD=super-strong-password-for-app
     MAIL_TO_BOX_NAME=Backup-folder
+    MAIL_TO_BOX_PREFIX=old_
     ```
 4. Run ```./backup-imap-mails.py```
